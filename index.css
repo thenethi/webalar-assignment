@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Jost:ital,wght@0,300;0,400;1,100;1,300;1,700&family=Lora&family=Nunito:wght@200;400&family=Questrial&display=swap');
+
+section {
+    padding: 30px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.header-title {
+    color: #000;
+    font-family: 'Questrial';
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    margin-left: 5px;
+}
+
+.nav-items {
+    display: flex;
+    align-items: center;
+}
+
+.active-nav-item {
+    color: #000;
+    font-family: 'Questrial';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav-item {
+    color: rgba(0, 0, 0, 0.45);
+    font-family: 'Questrial';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 8px;
+}
+
+.header-button {
+    border-radius: 50px;
+    background: #B795FF;
+    padding: 10px;
+    height: 40px;
+    width: 150px;
+    border: 0px solid;
+    cursor: pointer;
+    outline: none;
+}
+
+.hero-containers {
+    padding: 0px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.content-container {
+    width: 50%;
+}
+
+.hero-heading {
+    width: 100%;
+    color: #000;
+    font-family: 'Questrial';
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-para {
+    width: 100%;
+    color: rgba(0, 0, 0, 0.45);
+    font-family: 'Questrial';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+    /* 36px */
+    letter-spacing: -0.4px;
+}
+
+.hero-section-image {
+    width: 50%;
+    height: 795.797px;
+    flex-shrink: 0;
+    background-image: url("https://res.cloudinary.com/de2lwnsu7/image/upload/v1706789628/Vector_3_ptauec.png");
+    background-repeat: no-repeat;
+}
+
+.partnership-head {
+    color: #000;
+    font-family: 'Questrial';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 149%;
+    letter-spacing: 0.24px;
+    margin-left: 8px;
+}
+
+.partner-image {
+    width: 65.834px;
+    height: 23.509px;
+    flex-shrink: 0;
+    margin-left: 5px;
+}
+
+.partnership-labels-container {
+    display: flex;
+    align-items: center;
+}
+
+.leading-head {
+    width: 771.147px;
+    color: #000;
+    font-family: 'Questrial';
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.leading-card {
+    border-radius: 12px;
+    border: 1px solid black;
+    margin: 5px;
+    width: 45%;
+}
+
+i {
+    font-size: 44px;
+    padding: 12px;
+    color: #B795FF;
+}
+
+.leading-card-heading {
+    font-family: 'Questrial';
+    padding: 5px;
+}
+
+.leading-card-para {
+    color: grey;
+    font-family: 'Roboto';
+    width: 330px;
+    padding: 5px;
+}
+
+.leading-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .leading-head {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .leading-card-para {
+        width: 150px;
+    }
+}
+
+.team-image {
+    border-radius: 15px;
+}
+
+.teams-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    margin: 10px;
+    font-family: 'Questrial';
+    padding: 12px;
+}
+
+.leading-cards {
+    border: 1px solid grey;
+    border-radius: 15px;
+    width: 30%;
+    margin: 5px;
+}
+
+.leading-card-paras {
+    color: grey;
+    font-family: 'Roboto';
+    padding: 5px;
+}
+
+@media screen and (max-width:768px) {
+    .leading-card-paras {
+        width: 100px;
+    }
+}
+
+.feedback-container {
+    background-color: #B795FF;
+    border-radius: 10px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.testimonial-image {
+    height: 250px;
+    width: 280px;
+    border-radius: 50%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.feedback-content-heading {
+    font-family: 'Questrial';
+    padding: 10px;
+    font-size: 28px;
+}
+
+.feedback-content-subheading {
+    color: grey;
+    font-family: 'Roboto';
+    padding: 10px;
+
+}
+
+.feedback-content-description {
+    font-family: 'Questrial';
+    padding: 10px;
+}
+
+@media screen and (max-width:768px) {
+    .feedback-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feedback-content-container {
+        text-align: center;
+    }
+}
+
+.case-study-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.case-study-item {
+    margin: 10px;
+}
+
+.study-image {
+    height: 350px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.case-study-heading {
+    color: gray;
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .case-study-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    border-radius: 5px;
+    color: black;
+}
+
+label {
+    font-family: 'Questrial';
+}
+
+.submit-btn {
+    background-color: #B795FF;
+    border: 0px solid;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
